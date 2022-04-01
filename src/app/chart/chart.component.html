@@ -1,0 +1,12 @@
+<div *ngIf="axisXY$ | async as data">
+  <canvas
+    baseChart
+    width="400"
+    height="300"
+    [datasets]="[{ data: data.y, label: 'Elevation' }]"
+    [labels]="data.x"
+    [legend]="true"
+    [type]="'line'"
+  >
+  </canvas>
+</div>
