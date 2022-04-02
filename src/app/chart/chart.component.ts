@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { Select } from '@ngxs/store';
 import { Observable } from 'rxjs';
-import { AxisModel } from '../elevation.model';
-import { ElevationState } from '../elevation.state';
+import { AxisModel } from '../elevation/elevation.model';
+import { ElevationState } from '../elevation/elevation.state';
 
 @Component({
   selector: 'app-chart',

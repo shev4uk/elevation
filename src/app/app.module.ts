@@ -7,7 +7,7 @@ import { NgxsModule } from '@ngxs/store';
 import { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';
 import { ChartComponent } from './chart/chart.component';
 import { HttpClientModule } from  '@angular/common/http';
-import { ElevationState } from './elevation.state';
+import { ElevationState } from './elevation/elevation.state';
 import { NgChartsModule } from 'ng2-charts';
 import { AverageElevationComponent } from './average-elevation/average-elevation.component';
 import { MaxElevationComponent } from './max-elevation/max-elevation.component';

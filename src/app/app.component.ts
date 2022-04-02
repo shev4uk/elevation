@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Store } from '@ngxs/store';
-import { FetchAllElevation } from './elevation.action';
+import { FetchAllElevation } from './elevation/elevation.action';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,7 @@ import { FetchAllElevation } from './elevation.action';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  
+
   loading = false;
   loaded = false;
   constructor(private store: Store) {}
